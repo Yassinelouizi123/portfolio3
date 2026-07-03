@@ -160,7 +160,7 @@ const translations = {
       title: "Qui je suis",
       highlightText: "top 1 % mondial sur TryHackMe",
       paragraphs: [
-        "Je suis Yassine Louizi, étudiant en deuxième année en cybersécurité et cloud à l'ENSAM Casablanca, passionné par la sécurité offensive et l'exploitation des vulnérabilités.",
+        "Je suis Yassine Louizi, étudiant en cinquième année en cybersécurité et cloud à l'ENSAM Casablanca, passionné par la sécurité offensive et l'exploitation des vulnérabilités.",
         "Je me classe dans le top 1 % mondial sur TryHackMe (+220 salles complétées) et j'ai une expérience pratique issue d'un stage en pentest chez OCP Group, où j'ai découvert une faille critique de niveau P1.",
         "Actuellement, je cherche un stage PFA en sécurité offensive pour appliquer mes compétences dans des scénarios réels, en m'appuyant sur mon expérience en CTF, analyse de malware et infrastructure cloud.",
       ],

@@ -262,7 +262,7 @@ export default function PwnedPage() {
           return [
             "=== ABOUT  LOUIZI YASSINE ===",
             "",
-            "I am a third-year engineering student specializing in Cybersecurity",
+            "I am a fifth-year engineering student specializing in Cybersecurity",
             "and Cloud Computing at ENSAM Casablanca. Passionate about information",
             "security, ethical hacking, and designing secure systems.",
             "",

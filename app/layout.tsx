@@ -15,10 +15,70 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
 })
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL
+  ? new URL(process.env.NEXT_PUBLIC_SITE_URL)
+  : new URL("https://portfolio-2-git-main-yassines-projects-5dbdc56a.vercel.app")
+
 export const metadata: Metadata = {
-  title: "Yassine Louizi | Cybersecurity & Penetration Testing",
-  description: "Top 1% TryHackMe hacker. Offensive Security specialist | Penetration Testing | Web Security | CTF Champion",
-  generator: 'v0.app',
+  metadataBase: siteUrl,
+  title: {
+    default: "Yassine Louizi | Cybersecurity & Penetration Testing",
+    template: "%s | Yassine Louizi",
+  },
+  description:
+    "Top 1% TryHackMe hacker. Offensive Security specialist in penetration testing, web security, cloud defense, and CTF operations.",
+  keywords: [
+    "Yassine Louizi",
+    "cybersecurity",
+    "penetration testing",
+    "offensive security",
+    "TryHackMe",
+    "ENSAM Casablanca",
+    "cloud security",
+    "bug bounty",
+    "ethical hacking",
+    "security researcher",
+  ],
+  authors: [{ name: "Yassine Louizi", url: "https://github.com/Yassinelouizi123" }],
+  generator: "Next.js",
+  openGraph: {
+    title: "Yassine Louizi | Cybersecurity & Penetration Testing",
+    description:
+      "Offensive security specialist and top 1% TryHackMe hacker. Penetration testing, cloud security, and vulnerability research.",
+    url: siteUrl.toString(),
+    siteName: "Yassine Louizi",
+    type: "website",
+    locale: "en_US",
+    images: [
+      {
+        url: "/cyber-security2.png",
+        width: 1200,
+        height: 630,
+        alt: "Yassine Louizi | Cybersecurity & Penetration Testing",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Yassine Louizi | Cybersecurity & Penetration Testing",
+    description:
+      "Offensive security specialist and top 1% TryHackMe hacker. Penetration testing, cloud security, and vulnerability research.",
+    images: ["/cyber-security2.png"],
+    creator: "@Yassinelouizi123",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: false,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
   icons: [
     { rel: "icon", url: "/cyber-security2.png", type: "image/png" },
     { rel: "shortcut icon", url: "/cyber-security2.png" },
