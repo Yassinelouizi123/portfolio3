@@ -121,18 +121,18 @@ export default function PwnedPage() {
 
       const longListing = [
         "total 8",
-        "drwxr-xr-x  2 yassine yassine 4096 Dec 28 2024 skills/",
-        "drwxr-xr-x  2 yassine yassine 4096 Dec 28 2024 projects/",
-        "-rw-r--r--  1 yassine yassine 1024 Dec 28 2024 about.txt",
-        "-rw-r--r--  1 yassine yassine  512 Dec 28 2024 contact.txt",
-        "-rw-r--r--  1 yassine yassine 2048 Dec 28 2024 cv.pdf",
+        "drwxr-xr-x  2 yassine yassine 4096 Dec 28 2026 skills/",
+        "drwxr-xr-x  2 yassine yassine 4096 Dec 28 2026 projects/",
+        "-rw-r--r--  1 yassine yassine 1024 Dec 28 2026 about.txt",
+        "-rw-r--r--  1 yassine yassine  512 Dec 28 2026 contact.txt",
+        "-rw-r--r--  1 yassine yassine 2048 Dec 28 2026 cv.pdf",
       ]
 
       const longWithHidden = [
         "total 12",
-        "drwxr-xr-x  3 yassine yassine 4096 Dec 28 2024 .",
-        "drwxr-xr-x  4 yassine yassine 4096 Dec 28 2024 ..",
-        "-rw-r--r--  1 yassine yassine  256 Sep 10 2025 .env",
+        "drwxr-xr-x  3 yassine yassine 4096 Dec 28 2026 .",
+        "drwxr-xr-x  4 yassine yassine 4096 Dec 28 2026 ..",
+        "-rw-r--r--  1 yassine yassine  256 Sep 10 2026 .env",
         ...longListing,
       ]
 

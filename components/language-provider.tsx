@@ -100,12 +100,12 @@ const translations = {
       sectionLabel: "03 — PROJECTS",
       title: "Security Research & Development",
       projects: [
-        { title: "Bastion WAF", tags: ["Docker", "ModSecurity", "Python"], year: "2025" },
-        { title: "AegisCTF Platform", tags: ["Proxmox", "Kali", "RAG AI"], year: "2025" },
-        { title: "Malware Detection ML", tags: ["Python", "Random Forest", "PE/ELF"], year: "2024" },
-        { title: "SOC + ML Pipeline", tags: ["Docker", "Wazuh", "Isolation Forest"], year: "2024" },
-        { title: "JWT Inspector", tags: ["Automation", "Security Audit", "Brute-force"], year: "2024" },
-        { title: "Recon-Dorker", tags: ["OSINT", "Google Dorks", "Automation"], year: "2024" },
+        { title: "Bastion WAF", tags: ["Docker", "ModSecurity", "Python"], year: "2026" },
+        { title: "AegisCTF Platform", tags: ["Proxmox", "Kali", "RAG AI"], year: "2026" },
+        { title: "Malware Detection ML", tags: ["Python", "Random Forest", "PE/ELF"], year: "2025" },
+        { title: "SOC + ML Pipeline", tags: ["Docker", "Wazuh", "Isolation Forest"], year: "2025" },
+        { title: "JWT Inspector", tags: ["Automation", "Security Audit", "Brute-force"], year: "2025" },
+        { title: "Recon-Dorker", tags: ["OSINT", "Google Dorks", "Automation"], year: "2025" },
       ],
     },
     tech: {
