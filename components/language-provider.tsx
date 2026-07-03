@@ -36,7 +36,7 @@ const translations = {
       title: "Who I Am",
       highlightText: "top 1% globally on TryHackMe",
       paragraphs: [
-        "I'm Yassine Louizi, a 2nd year engineering student in Cybersecurity & Cloud at ENSAM Casablanca, passionate about offensive security and vulnerability exploitation.",
+        "I'm Yassine Louizi, a 5th year engineering student in Cybersecurity & Cloud at ENSAM Casablanca, passionate about offensive security and vulnerability exploitation.",
         "I rank in the top 1% globally on TryHackMe (+220 rooms completed) and have practical experience from a pentest internship at OCP Group, where I discovered a critical P1 bypass.",
         "Currently, I am seeking a PFA internship in offensive security to further apply my skills in real-world scenarios, leveraging my background in CTFs, malware analysis, and cloud infrastructure.",
       ],
